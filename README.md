@@ -40,3 +40,15 @@ Catálogo de productos con búsqueda, filtros y detalles (se irá ampliando por 
 ```bash
 npm i
 npm run dev
+
+## Backend / API
+- Base URL: `https://fakestoreapi.com`
+- Variable de entorno: `VITE_API_BASE`
+- Endpoints:
+  - `GET /products` → lista de productos
+  - `GET /products/categories` → lista de categorías
+
+## Comunicación Front ↔ Back
+- Cliente en `src/services/api.js` (fetch genérico).
+- Servicio de productos en `src/services/products.js`.
+- Ejemplo de consumo en `src/App.jsx`.
