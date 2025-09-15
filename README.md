@@ -52,3 +52,11 @@ npm run dev
 - Cliente en `src/services/api.js` (fetch genérico).
 - Servicio de productos en `src/services/products.js`.
 - Ejemplo de consumo en `src/App.jsx`.
+
+## Validaciones y manejo de errores (Parte 5)
+- Biblioteca: Zod (`zod`)
+- Esquemas: `src/validation/schemas.js`
+- Utilidad de errores: `src/validation/utils.js`
+- Validación de Login antes de llamar al backend.
+- Manejo de errores de API con timeout y mensajes amigables en `src/services/api.js`.
+- ErrorBoundary para fallos de render.

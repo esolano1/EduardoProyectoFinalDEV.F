@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getProducts } from './services/products';
+import Header from "./components/Header";
 
 export default function App() {
   const [items, setItems] = useState([]);
@@ -14,7 +15,11 @@ export default function App() {
   }, []);
 
   return (
+    
     <main style={{ padding: 24 }}>
+
+    <Header />
+
       <h1>Catálogo Interactivo — Fake Store API</h1>
 
       {loading && <p>Cargando productos...</p>}
