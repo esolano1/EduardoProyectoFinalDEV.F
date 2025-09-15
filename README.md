@@ -60,3 +60,24 @@ npm run dev
 - Validación de Login antes de llamar al backend.
 - Manejo de errores de API con timeout y mensajes amigables en `src/services/api.js`.
 - ErrorBoundary para fallos de render.
+
+## Funcionalidades
+- Listado con búsqueda, filtros por categoría y orden por precio.
+- Login real (Fake Store `/auth/login`) y rutas protegidas.
+- Manejo de errores (timeout, mensajes UI).
+- Validaciones con Zod (login y/o filtros).
+- Optimización: `useMemo`, `useCallback`, `React.memo`, `useDeferredValue`, `useTransition`.
+
+## Variables de entorno
+Crea `.env` a partir de `.env.example`:
+
+## Scripts
+- `npm run dev` — desarrollo
+- `npm run build` — build producción
+- `npm run preview` — servir build local
+
+## Cómo correr local
+```bash
+npm ci
+cp .env.example .env
+npm run dev
