@@ -58,7 +58,7 @@ export default function App() {
   return (
     <main style={{ padding: 24 }}>
       <Header />
-      <h1>Catálogo Interactivo — Fake Store API</h1>
+      <h1>Catálogo Interactivo — Fake Store API - Eduardo Solano</h1>
 
       {/* controles */}
       <div style={{ display: "grid", gap: 12, gridTemplateColumns: "1fr 200px 200px", maxWidth: 800, marginBottom: 16 }}>
